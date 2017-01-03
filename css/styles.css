@@ -15,6 +15,11 @@ table, th, td {
 
 td {
   padding: 30px;
+  width: 150px;
+}
+
+.contact_info {
+  list-style: none;
 }
 
 a:hover {

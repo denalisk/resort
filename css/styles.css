@@ -1,11 +1,26 @@
 body {
+
   background: linear-gradient(120deg, #d3dcea, skyblue);
   background-size: cover;
+
 }
 
-table, th, td {
-  bgcolor: black;
-  border: 1.5px solid black;
-  padding: 15px;
+#nav {
+  width: 900px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav a {
+  display: block;
   text-align: center;
+  width: 150px;
+}
+
+div .container {
+  clear: both;
 }

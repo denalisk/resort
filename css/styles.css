@@ -1,11 +1,30 @@
 body {
   background: linear-gradient(120deg, #d3dcea, skyblue);
   background-size: cover;
+  text-align: center;
 }
 
 table, th, td {
-  bgcolor: black;
-  border: 1.5px solid black;
-  padding: 15px;
+  font-family: georgia;
+  margin:auto;
+  background-color: rgba(160, 187, 232, 0.5);
+  border: 5px solid black;
+  padding: 3px;
   text-align: center;
+}
+
+td {
+  padding: 30px;
+}
+
+a:hover {
+  text-shadow:
+  -1px -1px 0 rgb(212, 227, 252),
+  1px -1px 0 rgb(212, 227, 252),
+  -1px 1px 0 rgb(212, 227, 252),
+  1px 1px 0 rgb(212, 227, 252);
+}
+
+a {
+  color: darkblue;
 }

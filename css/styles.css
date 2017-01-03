@@ -33,3 +33,11 @@ a:hover {
 a {
   color: darkblue;
 }
+
+.activities {
+  list-style-type: none;
+}
+
+.activities img {
+  height: 100px;
+}

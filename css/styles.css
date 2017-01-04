@@ -30,7 +30,7 @@ td {
   border: 10px solid black;
 }
 
-a:hover {
+a:hover, .activity-text {
   text-shadow:
   -1px -1px 0 rgb(212, 227, 252),
   1px -1px 0 rgb(212, 227, 252),
@@ -42,10 +42,24 @@ a {
   color: darkblue;
 }
 
-.activities {
-  list-style-type: none;
+.activity-image img {
+  height: 200px;
+  border: 3px solid black;
+  margin: -10;
 }
 
-.activities img {
-  height: 100px;
+.activity-image {
+  position: relative;
+  display: inline-block;
+}
+
+.activity-text {
+  position: absolute;
+  top: 110px;
+  text-align: center;
+  width: 100%;
+}
+
+.big-box {
+  text-align: center;
 }
